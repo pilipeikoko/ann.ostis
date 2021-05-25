@@ -1,0 +1,47 @@
+nrel_Markov_chain<-sc_node_norole_relation;;
+
+nrel_Markov_chain=>nrel_idtf:[Markov chain*](* <-lang_en;; *);;
+nrel_Markov_chain=>nrel_idtf:[цепь Маркова*](* <-lang_ru;; *);;
+ definition -> ...
+	(*
+		=> nrel_main_idtf: [Определение про цепь Маркова*](* <- lang_ru;; *);;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example: [Цепь Маркова - последовательность <sc_element sys_idtf="concept_random_event">случайных событий</sc_element> с конечным или счётным числом <sc_element sys_idtf="concept_exodus">исходов</sc_element>, где вероятность наступления каждого события зависит только от <sc_element sys_idtf="concept_condition>состояния</sc_element> , достигнутого в предыдущем событии.](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+		-> rrel_key_sc_element: nrel_Markov_chain;;
+		<= nrel_using_constants :
+		{
+			concept_condition; 
+		    	concept_random_event;
+			concept_exodus
+		};;
+	*);; 
+ statement -> ...
+	(*
+         -> rrel_key_sc_element: nrel_Markov_chain;;
+		=> nrel_main_idtf: [Утверждение про цепь Маркова](* <- lang_ru;; *);;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example: [Характеризуется тем свойством, что при <b><sc_element sys_idtf="concept_fix_present">фиксированном настоящем</b> будущее независимо от прошлого.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+			
+	
+		*);;
+		<= nrel_using_constants :...
+		(*
+			->  concept_fix_present;;
+		*);;
+	*);; 
+nrel_Markov_chain => nrel_first_domain: concept_condition;;
+nrel_Markov_chain => nrel_second_domain: concept_random_event;;
+nrel_Markov_chain => nrel_third_domain: concept_exodus;;
+nrel_Markov_chain=> nrel_definitional_domain:...
+	(*
+		<= nrel_combination: number;;
+	*);;
+	
+nrel_Markov_chain<-oriented_relation; 
+                                  antireflexive_relation; 
+                                  antitransitive_relation; 
+                                  antisymmetric_relation;;
+
+nrel_Markov_chain<-rrel_explored_concept: section_subject_domain_mathematics;;

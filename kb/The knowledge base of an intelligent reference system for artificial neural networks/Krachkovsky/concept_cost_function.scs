@@ -1,0 +1,37 @@
+concept_cost_function.<-sc_node_not_relation;;
+
+concept_cost_function.=> nrel_main_idtf: [функция потерь](* <- lang_ru;; *);;
+concept_cost_function.=> nrel_main_idtf: [cost_function.](* <- lang_en;; *);;
+definition ->...
+(*
+->rrel_key_sc_element: concept_cost_function.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Функция потерь — функция, которая в  <b><sc_element sys_idtf="theory_of_static_decisions">теории статистических решений</b> характеризует потери при <b><sc_element sys_idtf="wrong_decisions_accept">неправильном принятии решений</b> на основе <b><sc_element sys_idtf="input_data">наблюдаемых данных</b>. ](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Функция потерь. Определение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+
+
+
+
+
+{ 
+ theory_of_static_decisions;
+ wrong_decisions_accept;
+ input_data
+ 
+};;
+*);; 
+
+statement ->...
+(*
+->rrel_key_sc_element: concept_cost_function.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Цель функции потерь - <b><sc_element sys_idtf="characterize">характеризация </b> потерь при принятии неправильного решения основываясь на имеющихся данных.](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Функция потерь. Утверждение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+characterize
+};;
+*);;
+
+concept_cost_function.<-rrel_explored_concept: section_subject_domain_of_multilayer_neural_networks;;
+
+

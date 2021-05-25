@@ -16,7 +16,7 @@ concept_deep_neural_network => nrel_main_idtf: [Deep neural network](* <- lang_e
 definition ->...
 (*
 	-> rrel_key_sc_element : concept_deep_neural_network;;
-	<= nrel_sc_text_translation: ...(*->rrel_example:[Нейронные сети, осуществляющие глубокое нелиней􏰀ное иерархическое преобразование информации.](*<-lang_ru;;*);;*);;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Нейронные сети, осуществляющие глубокое нелинейное иерархическое преобразование информации.](*<-lang_ru;;*);;*);;
 	=> nrel_main_idtf: [Определение (Глубокая нейронная сеть.)](*<- lang_ru;;*);;
 	=> nrel_using_constants: ...
 	(*

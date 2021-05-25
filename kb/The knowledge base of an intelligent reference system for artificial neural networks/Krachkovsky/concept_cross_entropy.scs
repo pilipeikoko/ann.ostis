@@ -1,0 +1,36 @@
+concept_cross_entropy.<-sc_node_not_relation;;
+
+concept_cross_entropy.=> nrel_main_idtf: [перекрёстная энтропия](* <- lang_ru;; *);;
+concept_cross_entropy.=> nrel_main_idtf: [cross_entropy.](* <- lang_en;; *);;
+definition ->...
+(*
+->rrel_key_sc_element: concept_cross_entropy.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Перекрестная энтропия — это <b><sc_element sys_idtf="indicator">показатель</b>, который можно использовать для оценки точности <b><sc_element sys_idtf="probability_forecasts">вероятностных прогнозов</b>. ](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Перекрёстная энтропия. Определение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+
+
+
+{ 
+ indicator;
+ probability_forecasts
+ 
+};;
+*);; 
+
+statement ->...
+(*
+->rrel_key_sc_element: concept_cross_entropy.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[В b><sc_element sys_idtf="event_chains">цепочках событий</b> перекрестная энтропия используется для оценки моделей, применяемых для расчета <b><sc_element sys_idtf="chance_of_rare_event">вероятностей редких событий</b>.](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Перекрёстная энтропия. Утверждение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+event_chains;
+chance_of_rare_event
+
+};;
+*);;
+
+concept_cross_entropy.<-rrel_explored_concept: section_subject_domain_of_multilayer_neural_networks;;
+
+

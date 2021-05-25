@@ -1,0 +1,32 @@
+concept_neural_Tuting_machine<-sc_node_not_relation;;
+
+concept_neural_Tuting_machine=> nrel_main_idtf: [нейронная машина Тьюринга](* <- lang_ru;; *);;
+concept_neural_Tuting_machine=> nrel_main_idtf: [neural Turing machine](* <- lang_en;; *);;
+definition ->...
+(*
+->rrel_key_sc_element: concept_neural_Tuting_machine;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[нейронная машина Тьюринга - модель <b><sc_element sys_idtf="reccurent_neural_network">реккуретной нейронной сети/b>, сочетающей в себе возможности <b><sc_element sys_idtf="fuzzy_pattern_matching_neural_network">нейронных сетей нечеткого сопоставления шаблонов</b> с алгоритмической мощностью компьютеров](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [нейронная машина Тьюринга. Определение](*<- lang_ru;;*);;
+
+
+=> nrel_using_constants:
+{ 
+ reccurent_neural_network;
+ fuzzy_pattern_matching_neural_network
+};;
+*);; 
+
+statement ->...
+(*
+->rrel_key_sc_element: concept_neural_Tuting_machine;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Цель нейронной машины Тьюринга– <b><sc_element sys_idtf="reoptimization">реоптимизировать</b> некоторую <b><sc_element sys_idtf="function">функцию</b> f.](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Нейронная машина Тьюринга Утверждение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+reoptimization;
+function
+};;
+*);;
+
+concept_neural_Tuting_machine<-rrel_explored_concept: section_subject_domain_of_multilayer_neural_networks;;
+

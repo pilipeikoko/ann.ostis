@@ -1,0 +1,26 @@
+concept_learning_rate.<-sc_node_not_relation;;
+
+concept_learning_rate.=> nrel_main_idtf: [Скорость обучения](* <- lang_ru;; *);;
+concept_learning_rate.=> nrel_main_idtf: [learning_rate.](* <- lang_en;; *);;
+definition ->...
+(*
+->rrel_key_sc_element: concept_learning_rate.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Скорость обучения – это характеристика, которая используется во время обучения нейронных сетей.  ](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Скорость обучения. Определение](*<- lang_ru;;*);;
+*);; 
+
+statement ->...
+(*
+->rrel_key_sc_element: concept_learning_rate.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Скорость обучения определяет, как быстро будет обновлено <b><sc_element sys_idtf="weight_value">значение веса</b> в процессе <b><sc_element sys_idtf="backprogaration">обратного распространения</b>. ](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Скорость обучения. Утверждение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+weight_value;
+backprogaration
+};;
+*);;
+
+concept_learning_rate.<-rrel_explored_concept: section_subject_domain_of_multilayer_neural_networks;;
+
+

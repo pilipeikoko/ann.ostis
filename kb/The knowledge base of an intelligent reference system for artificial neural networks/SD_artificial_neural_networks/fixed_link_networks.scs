@@ -17,7 +17,7 @@ concept_fixed_link_networks => nrel_main_idtf: [Fixed link networks](* <- lang_e
 definition ->...
 (*
 	-> rrel_key_sc_element : concept_fixed_link_networks;;
-	<= nrel_sc_text_translation: ...(*->rrel_example:[Сети с фиксированными связями - это сети, в которых весовые коэф􏰀фициенты нейронной сети выбираются сразу, исходя из условия зада􏰀чи. ](*<-lang_ru;;*);;*);;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Сети с фиксированными связями - это сети, в которых весовые коэффициенты нейронной сети выбираются сразу, исходя из условия задачи. ](*<-lang_ru;;*);;*);;
 	=> nrel_main_idtf: [Определение (Сети с фиксированными связями.)](*<- lang_ru;;*);;
 	=> nrel_using_constants: ...
 	(*

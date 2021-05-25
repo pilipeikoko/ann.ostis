@@ -1,0 +1,30 @@
+concept_AdaBoost<-sc_node_not_relation;;
+
+concept_AdaBoost=> nrel_main_idtf: [адаптивное ускорение](* <- lang_ru;; *);;
+concept_AdaBoost=> nrel_main_idtf: [AdaBoost](* <- lang_en;; *);;
+definition ->...
+(*
+->rrel_key_sc_element: concept_AdaBoost;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Адаптивное ускорение — алгорит работающий по принципу построения каждого следующего <b><sc_element sys_idtf="classificator">классификатор</b> по объектам, которые плохо классифицируются предыдущими классфикаторами](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+								 	
+=> nrel_main_idtf: [Адаптивное ускорение. Определение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+
+{ 
+ classifficator
+};;
+*);;
+
+statement ->...
+(*
+->rrel_key_sc_element: concept_AdaBoost;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Цель алгоритма адаптивного ускорения - построить <b><sc_element sys_idtf="composition_of_basic_learning_algoritms">композицию из базовых алгоритмов обучения </b> для улучшения их эффективности.](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Адаптивное ускорение. Утверждение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+composition_of_basic_learning_algoritms
+};;
+*);;
+
+concept_AdaBoost<-rrel_explored_concept: section_subject_domain_of_multilayer_neural_networks;;
+

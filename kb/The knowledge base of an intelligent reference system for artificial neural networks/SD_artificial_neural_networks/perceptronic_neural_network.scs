@@ -23,7 +23,7 @@ concept_perceptronic_neural_network => nrel_main_idtf: [Perceptronic neural netw
 definition ->...
 (*
 	-> rrel_key_sc_element : concept_perceptronic_neural_network;;
-	<= nrel_sc_text_translation: ...(*->rrel_example:[Нейронные сети, которые характеризуются, как пра􏰀 вило, обучением с учителем. Архитектура их базируется на многослой􏰀ном персептроне, а в основе обучения лежит метод градиентного спус􏰀ка.](*<-lang_ru;;*);;*);;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Нейронные сети, которые характеризуются, как правило, обучением с учителем. Архитектура их базируется на многослойном персептроне, а в основе обучения лежит метод градиентного спуска.](*<-lang_ru;;*);;*);;
 	=> nrel_main_idtf: [Определение (Персептронные нейронные сети.)](*<- lang_ru;;*);;
 	=> nrel_using_constants: ...
 	(*

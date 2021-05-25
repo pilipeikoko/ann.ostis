@@ -1,0 +1,55 @@
+nrel_support_vector_machine<-sc_node_norole_relation;;
+
+nrel_support_vector_machine=>nrel_idtf:[support vector machine](* <-lang_en;; *);;
+nrel_support_vector_machine=>nrel_idtf:[метод опорных векторов*](* <-lang_ru;; *);;
+ definition -> ...
+	(*
+		=> nrel_main_idtf: [Определение про метод опорных векторов*](* <- lang_ru;; *);;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example: [Набор схожих алгоритмов <sc_element sys_idtf="concept_teaching_with_a_teacher">обучения с учителем</sc_element>, использующихся для задач <sc_element sys_idtf="concept_classification">классификации</sc_element> и <sc_element sys_idtf="concept_regression_analysis">регресионного анализа</sc_element>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+			
+			
+			
+		*);;
+		-> rrel_key_sc_element: nrel_support_vector_machine;;
+
+		<= nrel_using_constants :
+		{
+			concept_teaching_with_a_teacher; 
+			    concept_regression_analysis;
+			    concept_classification
+		};;
+	*);; 
+ statement -> ...
+	(*
+         -> rrel_key_sc_element: nrel_support_vector_machine;;
+		=> nrel_main_idtf: [Утверждение про метод опорных векторов*](* <- lang_ru;; *);;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example: [Основная идея метода - перевод <b><sc_element sys_idtf="concept_orgigin_vectors">исходных векторов</b> в <b><sc_element sys_idtf="concept_higher_dimensional_space">пространство более высокой размерности</b> и поиск <b><sc_elementsys_idtf="concept_dividing_hyperplane_with_the_largest_fence_in_space">разделяющей гиперплоскости с наибольшим зазоров в пространстве</b>.
+			](*<-lang_ru;;=>nrel_format:format_html;;*);;
+			
+			
+			
+		*);;
+		<= nrel_using_constants :
+		{
+			concept_orgigin_vectors;
+			concept_higher_dimensional_space;
+			concept_dividing_hyperplane_with_the_largest_fence_in_space
+		};;
+	*);; 
+nrel_support_vector_machine => nrel_first_domain: concept_probability_distribution;;
+nrel_support_vector_machine => nrel_second_domain: concept_probability_distribution;;
+nrel_support_vector_machine=> nrel_definitional_domain:...
+	(*
+		<= nrel_combination: number;;
+	*);;
+	
+nrel_support_vector_machine<-oriented_relation; 
+                                  antireflexive_relation; 
+                                  antitransitive_relation; 
+                                  antisymmetric_relation;;
+
+nrel_support_vector_machine<-rrel_explored_concept: section_subject_domain_mathematics;;
