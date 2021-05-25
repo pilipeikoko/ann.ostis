@@ -18,7 +18,7 @@ concept_distribution_layer => nrel_main_idtf: [Distribution layer](* <- lang_en;
 definition ->...
 (*
 	-> rrel_key_sc_element : concept_distribution_layer;;
-	<= nrel_sc_text_translation: ...(*->rrel_example:[Распределительный слой - слой, который передает входные сигналы на обрабатывающий слой нейронных элементов, пре􏰀образует входную информацию в соответствии с синаптическими свя􏰀зями и функцией активации.](*<-lang_ru;;*);;*);;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Распределительный слой - слой, который передает входные сигналы на обрабатывающий слой нейронных элементов, преобразует входную информацию в соответствии с синаптическими связями и функцией активации.](*<-lang_ru;;*);;*);;
 	=> nrel_main_idtf: [Определение (Распределительный слой.)](*<- lang_ru;;*);;
 	=> nrel_using_constants: ...
 	(*
@@ -37,7 +37,7 @@ definition ->...
 statement ->...
 (*
 	-> rrel_key_sc_element : concept_distribution_layer;;
-	<= nrel_sc_text_translation: ...(*->rrel_example:[Каждый нейрон рас􏰀пределительного слоя имеет синаптические связи со всеми нейронами обрабатывающего слоя.](*<-lang_ru;;*);;*);;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Каждый нейрон распределительного слоя имеет синаптические связи со всеми нейронами обрабатывающего слоя.](*<-lang_ru;;*);;*);;
 	=> nrel_main_idtf: [Утверждение(Распределительный слой.)](*<- lang_ru;;*);;
 	=> nrel_using_constants: ...
 	(*

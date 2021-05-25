@@ -1,0 +1,32 @@
+concept_deep_neural_network<-sc_node_not_relation;;
+
+concept_deep_neural_network=> nrel_main_idtf: [глубокая нейронная сеть](* <- lang_ru;; *);;
+concept_deep_neural_network=> nrel_main_idtf: [deep neural network](* <- lang_en;; *);;
+definition ->...
+(*
+->rrel_key_sc_element: concept_deep_neural_network;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Глубокие нейронные сети— <b><sc_element sys_idtf="neural_network">искусственные нейронные сети</b>, в которых сигнал распространяется от <b><sc_element sys_idtf="input_layer">входного слоя</b> по приницпам устройства <b><sc_element sys_idtf="bio_brain">биологического мозга</b>](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Глубокие нейронные сети. Определение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{ 
+ neural_network;
+ input_layer;
+ bio_brain;
+ output_layer
+};;
+*);; 
+
+statement ->...
+(*
+->rrel_key_sc_element: concept_deep_neural_network;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Цель глубокой нейронной сети– <b><sc_element sys_idtf="approximation">аппроксимировать</b> некоторую <b><sc_element sys_idtf="function">функцию</b> f.](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Глубокие нейронные сети. Утверждение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+approximation;
+function
+};;
+*);;
+
+concept_deep_neural_network<-rrel_explored_concept: section_subject_domain_of_multilayer_neural_networks;;
+

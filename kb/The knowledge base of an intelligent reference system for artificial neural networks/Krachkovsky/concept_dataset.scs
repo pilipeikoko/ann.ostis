@@ -1,0 +1,33 @@
+concept_dataset.<-sc_node_not_relation;;
+
+concept_dataset.=> nrel_main_idtf: [Датасет](* <- lang_ru;; *);;
+concept_dataset.=> nrel_main_idtf: [dataset.](* <- lang_en;; *);;
+definition ->...
+(*
+->rrel_key_sc_element: concept_dataset.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Датасет — <b><sc_element sys_idtf="logic_records_collection">коллекция из логических записей</b>, хранящихся в виде кортежа.. ](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Перекрёстная энтропия. Определение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+
+{ 
+ logic_records_collection
+ 
+};;
+*);; 
+
+statement ->...
+(*
+->rrel_key_sc_element: concept_dataset.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Набор данных можно сравнить с файлом, но в отличие от файла набор данных является одновременно и <b><sc_element sys_idtf="catalog">каталогом</b>, и <b><sc_element sys_idtf="file_system_file">файлом файловой системы</b>, и не может содержать в себе другие наборы.](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Датасет. Утверждение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+catalog;
+file_system_file
+
+};;
+*);;
+
+concept_dataset.<-rrel_explored_concept: section_subject_domain_of_multilayer_neural_networks;;
+
+

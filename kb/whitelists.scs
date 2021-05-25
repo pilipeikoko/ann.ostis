@@ -1,0 +1,14 @@
+concept_analog_signal
+	=>nrel_main_idtf:
+	[аналаговый сигнал]
+	(* <- lang_ru;; *);;
+	
+nrel_local_function_maximum
+	=>nrel_main_idtf:
+	[локальный максимум функции]
+	(* <- lang_ru;; *);;
+	
+nrel_local_function_minimum
+	=>nrel_main_idtf:
+	[локальный минимум функции]
+	(* <- lang_ru;; *);;

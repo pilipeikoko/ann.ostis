@@ -22,7 +22,7 @@ concept_modulating_neuron => nrel_main_idtf: [Generalizing ability](* <- lang_en
 definition ->...
 (*
 	-> rrel_key_sc_element : concept_generalizing_ability;;
-	<= nrel_sc_text_translation: ...(*->rrel_example:[Способность, характеризующая способность индивида интегрировать частные данные для определения закономерностей и пролонгации ре􏰀зультатов.](*<-lang_ru;;*);;*);;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[Способность, характеризующая способность индивида интегрировать частные данные для определения закономерностей и пролонгации результатов.](*<-lang_ru;;*);;*);;
 	=> nrel_main_idtf: [Определение (Обобщающая способность.)](*<- lang_ru;;*);;
 	=> nrel_using_constants: ...
 	(*
@@ -40,7 +40,7 @@ definition ->...
 statement ->...
 (*
 	-> rrel_key_sc_element : concept_generalizing_ability;;
-	<= nrel_sc_text_translation: ...(*->rrel_example:[К ней относится способность после обучения на одних данных применять полученные знания для других данных или рассуж􏰀дения от частного к общему.](*<-lang_ru;;*);;*);;
+	<= nrel_sc_text_translation: ...(*->rrel_example:[К ней относится способность после обучения на одних данных применять полученные знания для других данных или рассуждения от частного к общему.](*<-lang_ru;;*);;*);;
 	=> nrel_main_idtf: [Утверждение(Обобщающая способность.)](*<- lang_ru;;*);;
 	=> nrel_using_constants: ...
 	(*

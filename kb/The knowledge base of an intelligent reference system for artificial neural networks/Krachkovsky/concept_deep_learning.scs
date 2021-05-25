@@ -1,0 +1,34 @@
+concept_deep_learning.<-sc_node_not_relation;;
+
+concept_deep_learning.=> nrel_main_idtf: [Глубокое обучение](* <- lang_ru;; *);;
+concept_deep_learning.=> nrel_main_idtf: [deep_learning.](* <- lang_en;; *);;
+definition ->...
+(*
+->rrel_key_sc_element: concept_deep_learning.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[Глубокое обучение — совокупность методов машинного обучения, основанных на <b><sc_element sys_idtf="representation_learning">обучении представлениям</b>, а не специализированным алгоритмам под конкретные задачи.  ](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Глубокое обучение. Определение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+
+
+
+{ 
+ representation_learning
+ 
+};;
+*);; 
+
+statement ->...
+(*
+->rrel_key_sc_element: concept_deep_learning.;;
+<= nrel_sc_text_translation: ...(*->rrel_example:[При глубоком обучении само обучение происходит в <b><sc_element sys_idtf="image_form">форме образов</b>, а не на конкретных примерах.](*<-lang_ru;;=>nrel_format:format_html;;*);;*);;
+=> nrel_main_idtf: [Глубокое обучение. Утверждение](*<- lang_ru;;*);;
+=> nrel_using_constants:
+{
+image_form
+
+};;
+*);;
+
+concept_deep_learning.<-rrel_explored_concept: section_subject_domain_of_multilayer_neural_networks;;
+
+
