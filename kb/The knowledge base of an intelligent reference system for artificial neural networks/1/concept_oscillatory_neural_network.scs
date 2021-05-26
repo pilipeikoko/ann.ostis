@@ -1,0 +1,30 @@
+concept_oscillatory_neural_network <- sc_node_not_relation;;
+
+concept_oscillatory_neural_network => nrel_main_idtf:
+[осцилляторные нейронная сеть] (*<-lang_ru;;*);
+[oscillatory neural network] (*<-lang_en;;*);;
+
+concept_oscillatory_neural_network <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (осцилляторные нейронная сеть)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Одним из перспективных средств, не использующих априорные знания об обрабатываемых данных, является осцилляторная нейронная сеть.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_oscillatory_neural_network <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (осцилляторные нейронная сеть)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Функциональной единицей сети, как правило, является осциллятор](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

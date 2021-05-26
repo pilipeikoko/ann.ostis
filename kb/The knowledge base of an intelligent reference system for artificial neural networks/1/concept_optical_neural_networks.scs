@@ -1,0 +1,30 @@
+concept_optical_neural_networks <- sc_node_not_relation;;
+
+concept_optical_neural_networks => nrel_main_idtf:
+[оптические нейронные сети] (*<-lang_ru;;*);
+[optical neural networks] (*<-lang_en;;*);;
+
+concept_optical_neural_networks <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (оптические нейронные сети)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Оптические нейронные сети — реализация искусственных нейронных сетей в виде оптических систем.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_optical_neural_networks <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (оптические нейронные сети)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Для обеспечения параллелизма в цифровом компьютере необходима параллельная работа многих элементов. Занимаемое ими пространство, с учётом пространства, необходимого для изоляции одного элемента от другого, может стать настолько большим, что на пластине кремния не останется места для размещения вычислительных цепей. В то же время соединение элементов с помощью световых лучей не требует изоляции между сигнальными путями, световые потоки могут проходить один через другой без взаимного влияния.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

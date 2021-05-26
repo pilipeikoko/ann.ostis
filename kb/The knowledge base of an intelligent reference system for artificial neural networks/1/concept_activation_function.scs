@@ -1,0 +1,30 @@
+concept_activation_function <- sc_node_not_relation;;
+
+concept_activation_function => nrel_main_idtf:
+[функция активации] (*<-lang_ru;;*);
+[activation function] (*<-lang_en;;*);;
+
+concept_activation_function <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (функция активации)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Функция активации определяет выходное значение нейрона в зависимости от результата взвешенной суммы входов и порогового значения](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_activation_function <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (функция активации)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Она проверяет произведенное нейроном значение Y на предмет того, должны ли внешние связи рассматривать этот нейрон как активированный, или его можно игнорировать.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

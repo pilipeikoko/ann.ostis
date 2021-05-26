@@ -1,0 +1,30 @@
+concept_recognition_layer <- sc_node_not_relation;;
+
+concept_recognition_layer => nrel_main_idtf:
+[слой распознавания] (*<-lang_ru;;*);
+[recognition layer] (*<-lang_en;;*);;
+
+concept_recognition_layer <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (слой распознавания)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Слой распознавания осуществляет классификацию входных векторов.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_recognition_layer <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (слой распознавания)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Каждый нейрон в слое распознавания имеет соответствующий вектор весов Bj.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

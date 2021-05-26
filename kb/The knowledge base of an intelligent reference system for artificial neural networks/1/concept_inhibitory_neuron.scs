@@ -1,0 +1,35 @@
+concept_inhibitory_neuron <- sc_node_not_relation;;
+
+concept_inhibitory_neuron => nrel_main_idtf:
+[тормозящий нейрон] (*<-lang_ru;;*);
+[inhibitory neuron] (*<-lang_en;;*);;
+
+concept_inhibitory_neuron <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (тормозящий нейрон)] (*<-lang_ru;;*);;
+=> nrel_using_constants:
+	{
+		concept_synapse;
+		concept_neuron
+	};;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Тормозящий нейрон - нейрон, которому принадлежат <b><sc_element sys_idtf="concept_synapse">синапсы</b>, которые оказывают тормозящее воздействие на <b><sc_element sys_idtf="concept_neuron">нейрон</b>.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_inhibitory_neuron <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (тормозящий нейрон)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Синаптические веса тормозящих узлов не изменяются в процессе обучения.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

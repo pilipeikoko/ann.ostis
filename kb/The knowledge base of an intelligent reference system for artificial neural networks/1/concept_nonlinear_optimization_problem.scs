@@ -1,0 +1,30 @@
+concept_nonlinear_optimization_problem <- sc_node_not_relation;;
+
+concept_nonlinear_optimization_problem => nrel_main_idtf:
+[нелинейная оптимизационная задача] (*<-lang_ru;;*);
+[nonlinear optimization problem] (*<-lang_en;;*);;
+
+concept_nonlinear_optimization_problem <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (нелинейная оптимизационная задача)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Нелинейная оптимизационная задача включает множество независимых переменных, детерминистским образом связанных с значением целевой функции.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_nonlinear_optimization_problem <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (нелинейная оптимизационная задача)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Целью является нахождение такого множества значений независимых переменных, которое минимизирует (или максимизирует) целевую функцию.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

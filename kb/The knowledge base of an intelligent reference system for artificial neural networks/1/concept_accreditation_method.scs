@@ -1,0 +1,30 @@
+concept_accreditation_method <- sc_node_not_relation;;
+
+concept_accreditation_method => nrel_main_idtf:
+[метод аккредитации] (*<-lang_ru;;*);
+[accreditation method] (*<-lang_en;;*);;
+
+concept_accreditation_method <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (метод аккредитации)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Алгоритм обучения, в котором для каждого входного вектора активировался лишь один нейрон Кохонена.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_accreditation_method <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (метод аккредитации)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Его точность ограничена, так как выход полностью является функцией лишь одного нейрона Кохонена.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

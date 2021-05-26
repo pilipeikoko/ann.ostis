@@ -1,0 +1,30 @@
+concept_step_size <- sc_node_not_relation;;
+
+concept_step_size => nrel_main_idtf:
+[размер шага] (*<-lang_ru;;*);
+[step size] (*<-lang_en;;*);;
+
+concept_step_size <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (размер шага)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Размер шага должен браться конечным, и в этом вопросе приходится опираться только на опыт.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_step_size <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (размер шага)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Если размер шага очень мал, то сходимость слишком медленная, если же очень велик, то может возникнуть паралич или постоянная неустойчивость.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

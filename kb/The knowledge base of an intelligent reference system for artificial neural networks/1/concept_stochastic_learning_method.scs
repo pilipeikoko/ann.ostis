@@ -1,0 +1,30 @@
+concept_stochastic_learning_method <- sc_node_not_relation;;
+
+concept_stochastic_learning_method => nrel_main_idtf:
+[стохастический метод обучения] (*<-lang_ru;;*);
+[stochastic learning method] (*<-lang_en;;*);;
+
+concept_stochastic_learning_method <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (стохастический метод обучения)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Стохастические методы обучения выполняют псевдослучайные изменения величин весов, сохраняя те изменения, которые ведут к улучшениям.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_stochastic_learning_method <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (стохастический метод обучения)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Этот процесс стремится минимизировать целевую функцию, но может попасть, как в ловушку, в неудачное решение.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

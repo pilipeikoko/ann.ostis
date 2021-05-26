@@ -1,0 +1,30 @@
+concept_prediction <- sc_node_not_relation;;
+
+concept_prediction => nrel_main_idtf:
+[предсказание] (*<-lang_ru;;*);
+[prediction] (*<-lang_en;;*);;
+
+concept_prediction <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (предсказание)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Предсказание — возможность предсказывать следующий шаг. Например, рост или падение акций, основываясь на ситуации на фондовом рынке.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_prediction <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (предсказание)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[В зависимости от оснований предсказания делятся на рациональные и иррациональные.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

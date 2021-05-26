@@ -1,0 +1,30 @@
+concept_neurotransmitter <- sc_node_not_relation;;
+
+concept_neurotransmitter => nrel_main_idtf:
+[нейротрансмиттер] (*<-lang_ru;;*);
+[neurotransmitter] (*<-lang_en;;*);;
+
+concept_neurotransmitter <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (нейротрансмиттер)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Нейротрансмиттеры -  специальные химические вещества, выбрасываемые аксоном в синаптическую щель, диффундируют к дендриту.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_neurotransmitter <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (нейротрансмиттер)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Эти химические вещества, улавливаются специальными рецепторами на дендрите и внедряются в тело клетки. ](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

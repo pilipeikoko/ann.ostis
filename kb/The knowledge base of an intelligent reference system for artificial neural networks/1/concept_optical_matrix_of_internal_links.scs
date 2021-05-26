@@ -1,0 +1,30 @@
+concept_optical_matrix_of_internal_links <- sc_node_not_relation;;
+
+concept_optical_matrix_of_internal_links => nrel_main_idtf:
+[Оптическая матрица внутренних связей] (*<-lang_ru;;*);
+[Optical matrix of internal links] (*<-lang_en;;*);;
+
+concept_optical_matrix_of_internal_links <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (Оптическая матрица внутренних связей)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Оптическая матрица внутренних связей состоит из двух объемных голограмм, которые хранят образцовые изображения в виде записанных лазерными лучами дифракционных образов.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_optical_matrix_of_internal_links <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (Оптическая матрица внутренних связей)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Они служат весами входных компонент и направляют каждую взвешенную сумму на соответствующий элемент оптического выходного вектора.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

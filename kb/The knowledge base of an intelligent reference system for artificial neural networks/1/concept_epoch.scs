@@ -1,0 +1,30 @@
+concept_epoch <- sc_node_not_relation;;
+
+concept_epoch => nrel_main_idtf:
+[эпоха] (*<-lang_ru;;*);
+[epoch] (*<-lang_en;;*);;
+
+concept_epoch <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (эпоха)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Эпоха описывает количество раз, когда алгоритм видит весь набор данных. Таким образом, каждый раз, когда алгоритм просматривал все образцы в наборе данных, эпоха завершалась.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_epoch <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (эпоха)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Одна эпоха = один прямой проход и один обратный проход всех обучающих примеров](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

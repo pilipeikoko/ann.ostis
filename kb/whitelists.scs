@@ -12,3 +12,13 @@ nrel_local_function_minimum
 	=>nrel_main_idtf:
 	[локальный минимум функции]
 	(* <- lang_ru;; *);;
+	
+concept_operator
+	=>nrel_main_idtf:
+	[оператор]
+	(* <- lang_ru;; *);;
+	
+concept_evolution
+	=>nrel_main_idtf:
+	[эволюция]
+	(* <- lang_ru;; *);;

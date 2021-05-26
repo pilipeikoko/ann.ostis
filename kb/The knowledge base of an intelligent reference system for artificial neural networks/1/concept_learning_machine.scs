@@ -1,0 +1,30 @@
+concept_learning_machine <- sc_node_not_relation;;
+
+concept_learning_machine => nrel_main_idtf:
+[обучаемая машина] (*<-lang_ru;;*);
+[learning machine] (*<-lang_en;;*);;
+
+concept_learning_machine <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (обучаемая машина)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Нейронная сеть способна реализовать множество функций отображения вход-выход, описываемых соотношением (Y = F(x,w))](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_learning_machine <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (обучаемая машина)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Задача обучения с учителем состоит в выборе конкретной функции, которая оптимально аппроксимирует ожидаемый отклик.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

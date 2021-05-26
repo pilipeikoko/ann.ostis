@@ -1,0 +1,30 @@
+concept_neocognitron <- sc_node_not_relation;;
+
+concept_neocognitron => nrel_main_idtf:
+[неокогнитрон] (*<-lang_ru;;*);
+[neocognitron] (*<-lang_en;;*);;
+
+concept_neocognitron <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (неокогнитрон)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Неокогнитрон ориентирован на моделирование зрительной системы человека. Он получает на входе двумерные образы, аналогичные изображениям на сетчатой 156 оболочке глаза, и обрабатывает их в последующих слоях аналогично тому, как это было обнаружено в зрительной коре человека.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_neocognitron <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (неокогнитрон)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Конечно, в неокогнитроне нет ничего, ограничивающего его использование только для обработки визуальных данных, он достаточно универсален и может найти широкое применение как обобщенная система распознавания образов.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

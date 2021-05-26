@@ -1,0 +1,30 @@
+concept_training_purpose <- sc_node_not_relation;;
+
+concept_training_purpose => nrel_main_idtf:
+[цель обучения] (*<-lang_ru;;*);
+[training purpose] (*<-lang_en;;*);;
+
+concept_training_purpose <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (цель обучения)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Сеть обучается, чтобы для некоторого множества входов давать желаемое (или, по крайней мере, сообразное с ним) множество выходов.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_training_purpose <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (цель обучения)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Обучение осуществляется путем последовательного предъявления входных векторов с одновременной подстройкой весов в соответствии с определенной процедурой.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

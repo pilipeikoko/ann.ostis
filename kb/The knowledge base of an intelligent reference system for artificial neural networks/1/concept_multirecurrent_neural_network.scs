@@ -1,0 +1,61 @@
+concept_multirecurrent_neural_network
+
+	<-sc_node_not_relation;
+
+	=>nrel_main_idtf:
+		[мультирукуррентная нейронная сеть](*<-lang_ru;;*);
+		[multirecurrent neural network](*<-lang_en;;*);;
+
+
+concept_multirecurrent_neural_network
+	<- rrel_key_sc_element: ...
+	(*
+		<- definition;;
+		
+		=> nrel_main_idtf:
+    			[Опр. (мультирукуррентная нейронная сеть)] (* <- lang_ru;; *);;
+    		  
+		=> nrel_using_constants: 
+			{
+				recurrent_neural_network;
+				concept_output_layer;
+				concept_hidden_layer
+			};;
+			
+		<= nrel_sc_text_translation: ... 
+		(*
+			->rrel_example:
+				[Мультирекуррентная нейронная сеть - это <b><sc_element sys_idtf="recurrent_neural_network">рекуррентная сеть</b>, которая имеет обратные связи как от нейронов <b><sc_element sys_idtf="concept_output_layer">выходного</b>, так и от нейронов <b><sc_element sys_idtf="concept_hidden_layer">скрытого</b> слоя.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+		*);;
+	*);;
+
+
+concept_multirecurrent_neural_network
+	<- rrel_key_sc_element: ... 
+	(*
+		=> nrel_main_idtf:
+			[Утв.(мультирукуррентная нейронная сеть)] (* <- lang_ru;; *);;
+			
+ 		<= nrel_sc_text_translation: ...
+		(*
+    			-> rrel_example:
+				[Мультирекуррентная нейронная сеть, которая имеет один <b><sc_element sys_idtf="neural_element">нейронный элемент</b> с <b><sc_element sys_idtf="nrel_linear_activation_function">линейной функцией активации</b> в последнем слое может использоваться для прогнозирования временных рядов.](*<-lang_ru;; =>nrel_format: format_html;;*);;
+		*);;
+		
+		=> nrel_using_constants:
+			{
+				neural_element;
+				nrel_linear_activation_function
+			};;
+	*);;
+
+
+recurrent_neural_network
+	<-rrel_explored_concept: 
+		section_subject_domain_of_neural_networks_with_feedbacks;;
+
+
+
+
+
+

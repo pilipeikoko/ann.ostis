@@ -1,0 +1,30 @@
+concept_excitatory_neuron <- sc_node_not_relation;;
+
+concept_excitatory_neuron => nrel_main_idtf:
+[возбуждающий нейрон] (*<-lang_ru;;*);
+[excitatory neuron] (*<-lang_en;;*);;
+
+concept_excitatory_neuron <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (возбуждающий нейрон)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Грубо говоря, выход возбуждающего нейрона в когнитроне определяется отношением его возбуждающих входов к тормозящим входам.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_excitatory_neuron <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (возбуждающий нейрон)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Эта необычная функция имеет важные преимущества, как практические, так и теоретические.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

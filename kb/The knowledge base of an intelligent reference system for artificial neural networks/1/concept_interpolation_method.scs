@@ -1,0 +1,30 @@
+concept_interpolation_method <- sc_node_not_relation;;
+
+concept_interpolation_method => nrel_main_idtf:
+[метод интерполяции] (*<-lang_ru;;*);
+[interpolation method] (*<-lang_en;;*);;
+
+concept_interpolation_method <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (метод интерполяции)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[В методе интерполяции целая группа нейронов Кохонена, имеющих наибольшие выходы, может передавать свои выходные сигналы в слой Гроссберга.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_interpolation_method <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (метод интерполяции)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Число нейронов в такой группе должно выбираться в зависимости от задачи, и убедительных данных относительно оптимального размера группы не имеется.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,30 @@
+concept_network_paralysis <- sc_node_not_relation;;
+
+concept_network_paralysis => nrel_main_idtf:
+[параличь сети] (*<-lang_ru;;*);
+[network paralysis] (*<-lang_en;;*);;
+
+concept_network_paralysis <- rrel_key_sc_element: ...
+(*
+<- definition;;
+=> nrel_main_idtf:
+	[Опр. (параличь сети)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[В процессе обучения сети значения весов могут в результате коррекции стать очень большими величинами. Это может привести к тому, что все или большинство нейронов будут функционировать при очень больших значениях OUT, в области, где производная сжимающей функции очень мала. Так как посылаемая обратно в процессе обучения ошибка пропорциональна этой производной, то процесс обучения может практически замереть.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
+concept_network_paralysis <- rrel_key_sc_element: ...
+(*
+<- statement;;
+=> nrel_main_idtf:
+	[Утв. (параличь сети)] (*<-lang_ru;;*);;
+<= nrel_sc_text_translation: ...
+	(*
+		-> rrel_example:
+		[Обычно этого избегают уменьшением размера шага ?, но это увеличивает время обучения.](*<- lang_ru;; =>nrel_format: format_html;;*);;
+	*);;
+*);;
+
